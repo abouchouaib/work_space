@@ -1,0 +1,10 @@
+footer{
+    margin-top:  40px;
+    text-align: center;
+    font-size: 14px;
+    background: var(--bg);   
+    box-shadow: 2px -3px 5px #333;
+}
+footer{
+    margin : 0;
+}

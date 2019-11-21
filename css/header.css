@@ -1,0 +1,14 @@
+header{   
+        position: sticky;
+        top: 0;
+        display: flex;        
+        justify-content: space-between;
+        background: var(--bg);
+        box-shadow: 2px 3px 5px #333;
+}
+
+#logo img {
+padding: 10px;
+width: 100px;
+height: 100px;
+}
