@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head >
-<body>
 
     <div class ="container-fluid">
         <div class="row">
@@ -30,9 +29,97 @@
 
     </div>
         
+<body>
+<header>
+    <div id="logo">
+            <img src="./asset/image/tigre.jpg" alt="Logo" onerror="this.src = './assets/img/default-logo.png'">
+    </div>
+    <nav>
+        <div>
+            <a href="#">Accueil</a>
+            <a href="#">présentation</a>
+            <a href="#">services</a>
+            <a href="#">contact</a>
+        </div>
+
+
+    </nav>
    
+</header>
+<main>
+    <section id="carousel">
+        
+    </section>
+    <section id="presentation">
+        <h1>Qui sommes-nous ?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quae asperiores atque, sapiente voluptatibus tenetur at illo quis repudiandae dolorum maxime. Reiciendis perferendis cumque temporibus minus! Consequatur a obcaecati ut?</p>
+    </section>
+    <section id="services">
+        <h1>Nos prestations</h1>
+       <table>
+           <tr>
+               <th>Nos salades</th>
+               <th>Nos boissons</th>
+               <th>Nos oignons</th>
+           </tr>
+           <tr>
+           <td>Slade du chef</td>
+           <td>Coca light</td>
+           <td>Oignons de chez mamie</td>
+           </tr>
+
+           <tr>
+                <th>La césar</th>
+                <th>Vodka bio</th>
+                <th>Oignons frits</th>
+            </tr>
+            <tr>
+                    <th>chevre chaud</th>
+                    <th>Sans alcool</th>
+                    <th>Oignons rouge</th>
+                </tr>
+       </table>
+    </section>
+
+    <section id="contact">
+        <h1>Nous contacter</h1>
+        <p>
+            <form action="#confirm" method="GET">
+                <fieldset>
+                    <legend>Information</legend>
+                    <label>prenom :
+                        <input type="text" placeholder=" Votre prénom">
+                    </label>
+                    <label>nom :
+                        <input type="text" placeholder=" Votre nom">
+                    </label>
+                </fieldset>
+
+                 <fieldset>
+                    <legend>Message</legend>
+                    <label for="pre">Sujet du message : 
+                        <input type="text" placeholder=" Sujet du message">
+                    </label>
+                    <label>Votre message:
+                        <textarea  cols="30" rows="10"></textarea>
+                    </label>
+                </fieldset>                 
+                
+                <button type="submit"> Envoyer</button>
+            </form>
+        </p>
+    </section>
+</main>
+
+<footer>
+    <hr>
+    <p>
+        &copy; ADIL LAMMAMAR - 2019
+    </p>
+</footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" defer></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 
